@@ -1,0 +1,6 @@
+# Robots.txt for Dr. Hira Nawaz Official Medical Website
+User-agent: *
+Allow: /
+Disallow: /404/
+
+Sitemap: https://drhiranawaz.com/sitemap.xml
