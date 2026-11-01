@@ -34,7 +34,7 @@ export default function GeneralSurgeryPage() {
     },
     {
       question: "What is the consultation fee and appointment system at Faisal Hospital?",
-      answer: "Consultations are conducted Monday to Saturday from 4:00 PM to 9:00 PM at Private Clinic and Faisal Hospital. For appointment scheduling and reception guidance, patients can contact 0321 1836189."
+      answer: "Consultations are conducted Monday to Saturday from 4:00 PM to 7:00 PM at Private Clinic and Faisal Hospital. For appointment scheduling and reception guidance, patients can contact 0321 1836189."
     }
   ];
 

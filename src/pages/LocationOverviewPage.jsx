@@ -43,7 +43,7 @@ export default function LocationOverviewPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <DualLocationSection 
             title="Practice Locations in Faisalabad"
-            subtitle="Both locations operate Monday through Saturday from 4:00 PM to 9:00 PM for scheduled surgical consultations and follow-up reviews."
+            subtitle="Both locations operate Monday through Saturday from 4:00 PM to 7:00 PM for scheduled surgical consultations and follow-up reviews."
           />
 
           {/* Institutional Leadership Note */}

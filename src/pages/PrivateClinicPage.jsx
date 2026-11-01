@@ -18,12 +18,12 @@ import { businessInfo } from '../data/businessInfo';
 
 export default function PrivateClinicPage() {
   const clinicHours = [
-    { day: "Monday", time: "4:00 PM – 9:00 PM", isOpen: true },
-    { day: "Tuesday", time: "4:00 PM – 9:00 PM", isOpen: true },
-    { day: "Wednesday", time: "4:00 PM – 9:00 PM", isOpen: true },
-    { day: "Thursday", time: "4:00 PM – 9:00 PM", isOpen: true },
-    { day: "Friday", time: "4:00 PM – 9:00 PM", isOpen: true },
-    { day: "Saturday", time: "4:00 PM – 9:00 PM", isOpen: true },
+    { day: "Monday", time: "4:00 PM – 7:00 PM", isOpen: true },
+    { day: "Tuesday", time: "4:00 PM – 7:00 PM", isOpen: true },
+    { day: "Wednesday", time: "4:00 PM – 7:00 PM", isOpen: true },
+    { day: "Thursday", time: "4:00 PM – 7:00 PM", isOpen: true },
+    { day: "Friday", time: "4:00 PM – 7:00 PM", isOpen: true },
+    { day: "Saturday", time: "4:00 PM – 7:00 PM", isOpen: true },
     { day: "Sunday", time: "Closed", isOpen: false }
   ];
 
@@ -47,7 +47,7 @@ export default function PrivateClinicPage() {
         "@type": "OpeningHoursSpecification",
         "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
         "opens": "16:00",
-        "closes": "21:00"
+        "closes": "19:00"
       }
     ]
   };
@@ -56,7 +56,7 @@ export default function PrivateClinicPage() {
     <>
       <SEOHead 
         customTitle="Private Clinic | Dr. Hira Nawaz Female Surgeon Faisalabad"
-        customDescription="Consult Dr. Hira Nawaz at Private Clinic, Behind Faisal Hospital (New Building), 547/A Lower Canal Rd E, Faisalabad. Mon–Sat 4:00 PM – 9:00 PM. Call 0321 1836189."
+        customDescription="Consult Dr. Hira Nawaz at Private Clinic, Behind Faisal Hospital (New Building), 547/A Lower Canal Rd E, Faisalabad. Mon–Sat 4:00 PM – 7:00 PM. Call 0321 1836189."
         customSchema={clinicSchema}
       />
 
@@ -128,7 +128,7 @@ export default function PrivateClinicPage() {
                     <div>
                       <strong className="block text-medical-heading font-semibold">Consultation Timings:</strong>
                       <span className="text-medical-secondary">
-                        Monday to Saturday: 4:00 PM – 9:00 PM<br />
+                        Monday to Saturday: 4:00 PM – 7:00 PM<br />
                         <span className="text-rose-600 font-semibold">Sunday: Closed</span>
                       </span>
                     </div>

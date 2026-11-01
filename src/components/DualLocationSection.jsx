@@ -41,7 +41,7 @@ export default function DualLocationSection({
               </span>
               <span className="text-xs font-semibold text-emerald-700 bg-emerald-50 border border-emerald-200 px-3 py-1 rounded-full flex items-center mr-16 sm:mr-0">
                 <span className="w-2 h-2 rounded-full bg-emerald-500 inline-block mr-1.5 animate-pulse"></span>
-                Open Mon – Sat (4–9 PM)
+                Open Mon – Sat (4–7 PM)
               </span>
             </div>
 
@@ -92,7 +92,7 @@ export default function DualLocationSection({
                 <div>
                   <strong className="block text-medical-heading font-bold">Consultation Timings:</strong>
                   <span className="text-medical-secondary text-sm">
-                    Monday to Saturday: 4:00 PM – 9:00 PM | <span className="text-rose-600 font-semibold">Sunday: Closed</span>
+                    Monday to Saturday: 4:00 PM – 7:00 PM | <span className="text-rose-600 font-semibold">Sunday: Closed</span>
                   </span>
                 </div>
               </div>
@@ -154,7 +154,7 @@ export default function DualLocationSection({
               </span>
               <span className="text-xs font-semibold text-emerald-700 bg-emerald-50 border border-emerald-200 px-3 py-1 rounded-full flex items-center">
                 <span className="w-2 h-2 rounded-full bg-emerald-500 inline-block mr-1.5"></span>
-                Open Mon – Sat (4–9 PM)
+                Open Mon – Sat (4–7 PM)
               </span>
             </div>
 
@@ -205,7 +205,7 @@ export default function DualLocationSection({
                 <div>
                   <strong className="block text-medical-heading font-bold">Consultation Timings:</strong>
                   <span className="text-medical-secondary text-sm">
-                    Monday to Saturday: 4:00 PM – 9:00 PM | <span className="text-rose-600 font-semibold">Sunday: Closed</span>
+                    Monday to Saturday: 4:00 PM – 7:00 PM | <span className="text-rose-600 font-semibold">Sunday: Closed</span>
                   </span>
                 </div>
               </div>

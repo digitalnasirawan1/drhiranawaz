@@ -75,7 +75,7 @@ export default function Header() {
           <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
             <span className="flex items-center text-rose-100 font-medium whitespace-nowrap bg-black/15 px-2.5 py-0.5 rounded-full border border-white/10">
               <Clock className="w-3.5 h-3.5 mr-1.5 text-purple-200 shrink-0" />
-              <span>Clinic Hours: Mon – Sat: 4:00 PM – 9:00 PM</span>
+              <span>Clinic Hours: Mon – Sat: 4:00 PM – 7:00 PM</span>
             </span>
 
             {/* Clinic Address (Both Desktop & Mobile, linked to GMB) */}

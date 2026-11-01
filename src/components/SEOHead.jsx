@@ -97,7 +97,7 @@ export default function SEOHead({ customTitle, customDescription, customSchema }
           "@type": "OpeningHoursSpecification",
           "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
           "opens": "16:00",
-          "closes": "21:00"
+          "closes": "19:00"
         }
       ],
       "sameAs": [

@@ -20,7 +20,7 @@ export default function FaqsPage() {
         },
         {
           question: "What are Dr. Hira Nawaz's consultation hours?",
-          answer: "Dr. Hira Nawaz conducts outpatient consultations from Monday to Saturday between 4:00 PM and 9:00 PM at her Private Clinic and Faisal Hospital. The clinic is closed on Sundays."
+          answer: "Dr. Hira Nawaz conducts outpatient consultations from Monday to Saturday between 4:00 PM and 7:00 PM at her Private Clinic and Faisal Hospital. The clinic is closed on Sundays."
         },
         {
           question: "What should I bring to my initial surgical consultation?",

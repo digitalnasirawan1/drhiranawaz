@@ -31,7 +31,7 @@ export default function AppointmentCTA({
         <div className="inline-flex flex-wrap items-center justify-center gap-3.5 text-sm font-medium bg-black/35 backdrop-blur-md px-6 py-3.5 rounded-2xl mb-10 border border-white/20 shadow-elevated">
           <span className="flex items-center text-rose-200">
             <Clock className="w-4 h-4 mr-1.5" />
-            Mon – Sat: 4:00 PM – 9:00 PM (Sunday Closed)
+            Mon – Sat: 4:00 PM – 7:00 PM (Sunday Closed)
           </span>
           <span className="text-purple-300/60">|</span>
           <span className="flex items-center text-purple-100">

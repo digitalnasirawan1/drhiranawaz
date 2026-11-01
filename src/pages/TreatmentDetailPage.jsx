@@ -374,7 +374,7 @@ export default function TreatmentDetailPage({ treatmentId }) {
       {/* 14. FINAL APPOINTMENT CTA */}
       <AppointmentCTA 
         title={`Book a Consultation for ${service.title}`}
-        subtitle={`Schedule your clinical evaluation with Dr. Hira Nawaz at our Private Clinic or Faisal Hospital, Faisalabad. Outpatient timings: Monday to Saturday, 4:00 PM to 9:00 PM.`}
+        subtitle={`Schedule your clinical evaluation with Dr. Hira Nawaz at our Private Clinic or Faisal Hospital, Faisalabad. Outpatient timings: Monday to Saturday, 4:00 PM to 7:00 PM.`}
       />
     </>
   );

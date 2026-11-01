@@ -28,7 +28,7 @@ export default function FaisalHospitalCard() {
               <div>
                 <strong className="text-medical-heading font-semibold">Outpatient Consultation Timings:</strong>
                 <p className="text-medical-secondary text-sm mt-0.5">
-                  Monday to Saturday: 4:00 PM – 9:00 PM<br />
+                  Monday to Saturday: 4:00 PM – 7:00 PM<br />
                   <span className="text-rose-600 font-semibold">Sunday: Closed</span>
                 </p>
               </div>

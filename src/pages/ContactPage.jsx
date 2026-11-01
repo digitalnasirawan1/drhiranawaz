@@ -174,12 +174,12 @@ export default function ContactPage() {
                       onChange={(e) => setFormData({ ...formData, preferredDay: e.target.value })}
                       className="w-full px-4 py-3 rounded-xl border border-[#E7E7E7] bg-white text-base focus:outline-none focus:ring-2 focus:ring-brand"
                     >
-                      <option value="Monday">Monday (4–9 PM)</option>
-                      <option value="Tuesday">Tuesday (4–9 PM)</option>
-                      <option value="Wednesday">Wednesday (4–9 PM)</option>
-                      <option value="Thursday">Thursday (4–9 PM)</option>
-                      <option value="Friday">Friday (4–9 PM)</option>
-                      <option value="Saturday">Saturday (4–9 PM)</option>
+                      <option value="Monday">Monday (4–7 PM)</option>
+                      <option value="Tuesday">Tuesday (4–7 PM)</option>
+                      <option value="Wednesday">Wednesday (4–7 PM)</option>
+                      <option value="Thursday">Thursday (4–7 PM)</option>
+                      <option value="Friday">Friday (4–7 PM)</option>
+                      <option value="Saturday">Saturday (4–7 PM)</option>
                     </select>
                   </div>
                 </div>
@@ -271,7 +271,7 @@ export default function ContactPage() {
                     <Clock className="w-5 h-5 text-brand shrink-0 mt-1" />
                     <div>
                       <strong className="block text-medical-heading font-semibold">Consultation Timings:</strong>
-                      <span>Monday to Saturday: 4:00 PM – 9:00 PM</span><br />
+                      <span>Monday to Saturday: 4:00 PM – 7:00 PM</span><br />
                       <span className="text-rose-600 font-semibold">Sunday: Closed</span>
                     </div>
                   </div>

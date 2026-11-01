@@ -35,7 +35,7 @@ export default function FaisalHospitalPage() {
         "@type": "OpeningHoursSpecification",
         "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
         "opens": "16:00",
-        "closes": "21:00"
+        "closes": "19:00"
       }
     ]
   };
@@ -44,7 +44,7 @@ export default function FaisalHospitalPage() {
     <>
       <SEOHead 
         customTitle="Dr. Hira Nawaz at Faisal Hospital Faisalabad | Timings & Directions"
-        customDescription="Consultation details for Dr. Hira Nawaz at Faisal Hospital, Plot 547 Muhammadia Colony, People's Colony No 1, Faisalabad. Mon–Sat 4:00 PM – 9:00 PM."
+        customDescription="Consultation details for Dr. Hira Nawaz at Faisal Hospital, Plot 547 Muhammadia Colony, People's Colony No 1, Faisalabad. Mon–Sat 4:00 PM – 7:00 PM."
         customSchema={hospitalSchema}
       />
 
@@ -61,7 +61,7 @@ export default function FaisalHospitalPage() {
           </h1>
 
           <p className="text-fluid-body text-medical-body leading-[1.7] max-w-2xl mx-auto">
-            Specialist general and laparoscopic surgical consultations conducted Monday through Saturday from 4:00 PM to 9:00 PM at Faisal Hospital.
+            Specialist general and laparoscopic surgical consultations conducted Monday through Saturday from 4:00 PM to 7:00 PM at Faisal Hospital.
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-4 pt-6">
@@ -106,7 +106,7 @@ export default function FaisalHospitalPage() {
                 <Clock className="w-6 h-6 text-brand mb-3" />
                 <h2 className="font-heading font-semibold text-lg text-medical-heading mb-1.5">Clinic Timings</h2>
                 <p className="text-service-body text-medical-secondary leading-[1.6]">
-                  Monday to Saturday: 4:00 PM – 9:00 PM.<br />
+                  Monday to Saturday: 4:00 PM – 7:00 PM.<br />
                   <span className="text-rose-600 font-semibold">Sunday: Closed.</span>
                 </p>
               </div>

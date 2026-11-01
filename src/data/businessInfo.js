@@ -39,15 +39,15 @@ export const businessInfo = {
       fullAddress: "Behind Faisal Hospital (New Building), 547/A Lower Canal Rd E, Muhammadia Colony Block A, People's Colony No 1, Faisalabad, 03822",
       googleMapsUrl: "https://maps.app.goo.gl/xN24RtbBNCQiNQjg7",
       hours: [
-        { day: "Monday", time: "4:00 PM – 9:00 PM", isOpen: true },
-        { day: "Tuesday", time: "4:00 PM – 9:00 PM", isOpen: true },
-        { day: "Wednesday", time: "4:00 PM – 9:00 PM", isOpen: true },
-        { day: "Thursday", time: "4:00 PM – 9:00 PM", isOpen: true },
-        { day: "Friday", time: "4:00 PM – 9:00 PM", isOpen: true },
-        { day: "Saturday", time: "4:00 PM – 9:00 PM", isOpen: true },
+        { day: "Monday", time: "4:00 PM – 7:00 PM", isOpen: true },
+        { day: "Tuesday", time: "4:00 PM – 7:00 PM", isOpen: true },
+        { day: "Wednesday", time: "4:00 PM – 7:00 PM", isOpen: true },
+        { day: "Thursday", time: "4:00 PM – 7:00 PM", isOpen: true },
+        { day: "Friday", time: "4:00 PM – 7:00 PM", isOpen: true },
+        { day: "Saturday", time: "4:00 PM – 7:00 PM", isOpen: true },
         { day: "Sunday", time: "Closed", isOpen: false }
       ],
-      timingSummary: "Mon – Sat: 4:00 PM – 9:00 PM (Sunday Closed)"
+      timingSummary: "Mon – Sat: 4:00 PM – 7:00 PM (Sunday Closed)"
     },
     {
       id: "faisal-hospital",
@@ -62,15 +62,15 @@ export const businessInfo = {
       fullAddress: "Faisal Hospital, Plot 547, Muhammadia Colony Block A, People's Colony No 1, Faisalabad, Pakistan",
       googleMapsUrl: "https://maps.app.goo.gl/UfRntfLaEcPaeVAU7",
       hours: [
-        { day: "Monday", time: "4:00 PM – 9:00 PM", isOpen: true },
-        { day: "Tuesday", time: "4:00 PM – 9:00 PM", isOpen: true },
-        { day: "Wednesday", time: "4:00 PM – 9:00 PM", isOpen: true },
-        { day: "Thursday", time: "4:00 PM – 9:00 PM", isOpen: true },
-        { day: "Friday", time: "4:00 PM – 9:00 PM", isOpen: true },
-        { day: "Saturday", time: "4:00 PM – 9:00 PM", isOpen: true },
+        { day: "Monday", time: "4:00 PM – 7:00 PM", isOpen: true },
+        { day: "Tuesday", time: "4:00 PM – 7:00 PM", isOpen: true },
+        { day: "Wednesday", time: "4:00 PM – 7:00 PM", isOpen: true },
+        { day: "Thursday", time: "4:00 PM – 7:00 PM", isOpen: true },
+        { day: "Friday", time: "4:00 PM – 7:00 PM", isOpen: true },
+        { day: "Saturday", time: "4:00 PM – 7:00 PM", isOpen: true },
         { day: "Sunday", time: "Closed", isOpen: false }
       ],
-      timingSummary: "Mon – Sat: 4:00 PM – 9:00 PM (Sunday Closed)"
+      timingSummary: "Mon – Sat: 4:00 PM – 7:00 PM (Sunday Closed)"
     }
   ],
 
@@ -84,12 +84,12 @@ export const businessInfo = {
   },
   googleMapsUrl: "https://maps.app.goo.gl/xN24RtbBNCQiNQjg7",
   hours: [
-    { day: "Monday", time: "4:00 PM – 9:00 PM", isOpen: true },
-    { day: "Tuesday", time: "4:00 PM – 9:00 PM", isOpen: true },
-    { day: "Wednesday", time: "4:00 PM – 9:00 PM", isOpen: true },
-    { day: "Thursday", time: "4:00 PM – 9:00 PM", isOpen: true },
-    { day: "Friday", time: "4:00 PM – 9:00 PM", isOpen: true },
-    { day: "Saturday", time: "4:00 PM – 9:00 PM", isOpen: true },
+    { day: "Monday", time: "4:00 PM – 7:00 PM", isOpen: true },
+    { day: "Tuesday", time: "4:00 PM – 7:00 PM", isOpen: true },
+    { day: "Wednesday", time: "4:00 PM – 7:00 PM", isOpen: true },
+    { day: "Thursday", time: "4:00 PM – 7:00 PM", isOpen: true },
+    { day: "Friday", time: "4:00 PM – 7:00 PM", isOpen: true },
+    { day: "Saturday", time: "4:00 PM – 7:00 PM", isOpen: true },
     { day: "Sunday", time: "Closed", isOpen: false }
   ],
   

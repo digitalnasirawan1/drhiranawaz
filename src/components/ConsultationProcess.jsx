@@ -5,7 +5,7 @@ export default function ConsultationProcess() {
     {
       step: "01",
       title: "Contact for Appointment",
-      description: "Reach out via WhatsApp or call 0321 1836189 to schedule your consultation slot during outpatient hours (4:00 PM – 9:00 PM).",
+      description: "Reach out via WhatsApp or call 0321 1836189 to schedule your consultation slot during outpatient hours (4:00 PM – 7:00 PM).",
       icon: PhoneCall
     },
     {

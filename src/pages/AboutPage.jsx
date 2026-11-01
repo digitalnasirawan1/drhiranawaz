@@ -72,7 +72,7 @@ export default function AboutPage() {
                       Private Clinic & Faisal Hospital, People's Colony No 1, Faisalabad
                     </div>
                     <div className="text-sm text-medical-secondary mt-0.5 leading-relaxed">
-                      Private Outpatient Clinic: Monday to Saturday (4:00 PM – 9:00 PM)
+                      Private Outpatient Clinic: Monday to Saturday (4:00 PM – 7:00 PM)
                     </div>
                   </div>
                 </div>

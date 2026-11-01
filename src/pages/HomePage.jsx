@@ -25,7 +25,7 @@ export default function HomePage() {
   const homeFaqs = [
     {
       question: "Where does Dr. Hira Nawaz conduct outpatient surgical consultations?",
-      answer: "Dr. Hira Nawaz conducts evening consultations at her Private Clinic (Behind Faisal Hospital, New Building, People's Colony No 1) and at Faisal Hospital, Faisalabad, from Monday to Saturday, 4:00 PM to 9:00 PM."
+      answer: "Dr. Hira Nawaz conducts evening consultations at her Private Clinic (Behind Faisal Hospital, New Building, People's Colony No 1) and at Faisal Hospital, Faisalabad, from Monday to Saturday, 4:00 PM to 7:00 PM."
     },
     {
       question: "What are Dr. Hira Nawaz's surgical qualifications and leadership positions?",
