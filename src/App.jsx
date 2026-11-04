@@ -9,6 +9,8 @@ import AboutPage from './pages/AboutPage';
 import ServicesOverviewPage from './pages/ServicesOverviewPage';
 import GeneralSurgeryPage from './pages/GeneralSurgeryPage';
 import LaparoscopicSurgeryPage from './pages/LaparoscopicSurgeryPage';
+import HerniaSurgeryPage from './pages/HerniaSurgeryPage';
+import GallbladderSurgeryPage from './pages/GallbladderSurgeryPage';
 import TreatmentDetailPage from './pages/TreatmentDetailPage';
 import ForPatientsPage from './pages/ForPatientsPage';
 import PatientResultsPage from './pages/PatientResultsPage';
@@ -49,12 +51,12 @@ export default function App() {
           <Route path="/laparoscopic-surgery/" element={<LaparoscopicSurgeryPage />} />
 
           {/* P06: Hernia Surgery */}
-          <Route path="/hernia-surgery" element={<TreatmentDetailPage treatmentId="hernia-surgery" />} />
-          <Route path="/hernia-surgery/" element={<TreatmentDetailPage treatmentId="hernia-surgery" />} />
+          <Route path="/hernia-surgery" element={<HerniaSurgeryPage />} />
+          <Route path="/hernia-surgery/" element={<HerniaSurgeryPage />} />
 
           {/* P07: Gallbladder Surgery */}
-          <Route path="/gallbladder-surgery" element={<TreatmentDetailPage treatmentId="gallbladder-surgery" />} />
-          <Route path="/gallbladder-surgery/" element={<TreatmentDetailPage treatmentId="gallbladder-surgery" />} />
+          <Route path="/gallbladder-surgery" element={<GallbladderSurgeryPage />} />
+          <Route path="/gallbladder-surgery/" element={<GallbladderSurgeryPage />} />
 
           {/* P08: Appendix Surgery */}
           <Route path="/appendix-surgery" element={<TreatmentDetailPage treatmentId="appendix-surgery" />} />
