@@ -11,6 +11,8 @@ import GeneralSurgeryPage from './pages/GeneralSurgeryPage';
 import LaparoscopicSurgeryPage from './pages/LaparoscopicSurgeryPage';
 import HerniaSurgeryPage from './pages/HerniaSurgeryPage';
 import GallbladderSurgeryPage from './pages/GallbladderSurgeryPage';
+import AppendixSurgeryPage from './pages/AppendixSurgeryPage';
+import ThyroidSurgeryPage from './pages/ThyroidSurgeryPage';
 import TreatmentDetailPage from './pages/TreatmentDetailPage';
 import ForPatientsPage from './pages/ForPatientsPage';
 import PatientResultsPage from './pages/PatientResultsPage';
@@ -59,12 +61,12 @@ export default function App() {
           <Route path="/gallbladder-surgery/" element={<GallbladderSurgeryPage />} />
 
           {/* P08: Appendix Surgery */}
-          <Route path="/appendix-surgery" element={<TreatmentDetailPage treatmentId="appendix-surgery" />} />
-          <Route path="/appendix-surgery/" element={<TreatmentDetailPage treatmentId="appendix-surgery" />} />
+          <Route path="/appendix-surgery" element={<AppendixSurgeryPage />} />
+          <Route path="/appendix-surgery/" element={<AppendixSurgeryPage />} />
 
           {/* P09: Thyroid Surgery */}
-          <Route path="/thyroid-surgery" element={<TreatmentDetailPage treatmentId="thyroid-surgery" />} />
-          <Route path="/thyroid-surgery/" element={<TreatmentDetailPage treatmentId="thyroid-surgery" />} />
+          <Route path="/thyroid-surgery" element={<ThyroidSurgeryPage />} />
+          <Route path="/thyroid-surgery/" element={<ThyroidSurgeryPage />} />
 
           {/* P10: Breast Surgery */}
           <Route path="/breast-surgery" element={<TreatmentDetailPage treatmentId="breast-surgery" />} />
