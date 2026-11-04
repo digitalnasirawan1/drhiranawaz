@@ -58,7 +58,7 @@ export const seoRoutes = [
     slug: "general-surgery/",
     canonical: "https://drhiranawaz.com/general-surgery/",
     title: "Female General Surgeon in Faisalabad | Dr. Hira Nawaz",
-    description: "Consult Female General Surgeon Dr. Hira Nawaz in Faisalabad for surgical assessment of hernias, gallbladder stones, lumps, cysts, breast health, and anorectal conditions.",
+    description: "Consult Dr. Hira Nawaz, a female general and laparoscopic surgeon in Faisalabad (MBBS, FCPS). Hernia, gallbladder, piles and more. Call or WhatsApp.",
     h1: "Female General Surgeon in Faisalabad",
     schemaType: "MedicalWebPage",
     robots: "index, follow",
