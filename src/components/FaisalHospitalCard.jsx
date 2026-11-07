@@ -3,15 +3,15 @@ import { businessInfo } from '../data/businessInfo';
 
 export default function FaisalHospitalCard() {
   return (
-    <div className="bg-white rounded-3xl p-8 sm:p-10 border border-[#E7E7E7] shadow-card hover:border-brand/40 transition-all">
+    <div className="bg-white rounded-3xl p-8 sm:p-10 border border-[#E7E7E7] shadow-card hover:border-brand/40 hover:shadow-elevated transition-all duration-300">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
         <div>
-          <div className="inline-flex items-center px-3.5 py-1.5 rounded-full text-xs font-semibold bg-brand-soft text-brand mb-4">
+          <div className="inline-flex items-center px-3.5 py-1.5 rounded-full text-xs font-semibold bg-brand-soft text-brand mb-4 border border-brand/15">
             <MapPin className="w-3.5 h-3.5 mr-1.5" />
             Verified Consultation Location
           </div>
 
-          <h3 className="font-heading text-2xl sm:text-3xl font-bold text-medical-heading mb-4">
+          <h3 className="font-heading text-2xl sm:text-3xl font-bold text-medical-heading mb-4 tracking-tight">
             Faisal Hospital, Faisalabad
           </h3>
 
@@ -47,14 +47,14 @@ export default function FaisalHospitalCard() {
               href={businessInfo.googleMapsUrl} 
               target="_blank" 
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center px-5 py-3 rounded-xl bg-brand text-white font-semibold text-sm sm:text-base hover:bg-brand-hover transition-colors shadow-sm"
+              className="inline-flex items-center justify-center px-5 py-3 rounded-xl bg-gradient-to-r from-brand to-brand-hover text-white font-semibold text-sm sm:text-base hover:from-brand-hover hover:to-brand-dark transition-all shadow-glow-brand hover:shadow-elevated hover:-translate-y-0.5"
             >
               <ExternalLink className="w-4 h-4 mr-2" />
               Get Google Maps Directions
             </a>
             <a 
               href={businessInfo.phoneTel} 
-              className="inline-flex items-center justify-center px-5 py-3 rounded-xl bg-white border border-[#E7E7E7] text-medical-heading font-semibold text-sm sm:text-base hover:bg-brand-soft transition-colors"
+              className="inline-flex items-center justify-center px-5 py-3 rounded-xl bg-white border border-[#E7E7E7] hover:border-brand/40 text-medical-heading hover:text-brand font-semibold text-sm sm:text-base hover:bg-brand-soft/60 transition-all shadow-subtle hover:shadow-card hover:-translate-y-0.5"
             >
               <Phone className="w-4 h-4 mr-2 text-brand" />
               Call {businessInfo.phoneDisplay}
@@ -63,7 +63,7 @@ export default function FaisalHospitalCard() {
         </div>
 
         {/* Visual Map / Hospital Card Graphic */}
-        <div className="relative rounded-2xl overflow-hidden border border-[#E7E7E7] bg-slate-50 p-6 flex flex-col justify-between min-h-[300px]">
+        <div className="relative rounded-2xl overflow-hidden border border-[#E7E7E7] bg-slate-50/80 p-6 flex flex-col justify-between min-h-[300px] shadow-inner">
           <div className="flex items-center justify-between pb-4 border-b border-slate-200">
             <div>
               <div className="text-xs uppercase font-semibold tracking-wider text-medical-secondary">Hospital OPD Registry</div>

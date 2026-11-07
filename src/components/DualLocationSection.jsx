@@ -28,7 +28,7 @@ export default function DualLocationSection({
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
         
         {/* CARD 1: PRIVATE CLINIC (PROMOTED - FIRST) */}
-        <div className="bg-gradient-to-b from-white via-white to-brand-soft/25 rounded-3xl p-6 sm:p-8 border-2 border-brand/60 shadow-elevated ring-4 ring-brand/10 transition-all flex flex-col justify-between group relative overflow-hidden">
+        <div className="bg-gradient-to-b from-white via-white to-brand-soft/25 rounded-3xl p-6 sm:p-8 border-2 border-brand/60 shadow-elevated ring-4 ring-brand/10 hover:shadow-[0_25px_50px_-12px_rgba(101,60,97,0.22)] hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between group relative overflow-hidden">
           <div className="absolute top-0 right-0 bg-gradient-to-l from-brand to-brand-hover text-white text-[10px] font-bold uppercase tracking-wider px-4 py-1.5 rounded-bl-2xl shadow-sm">
             Surgical Clinic
           </div>
@@ -145,7 +145,7 @@ export default function DualLocationSection({
         </div>
 
         {/* CARD 2: FAISAL HOSPITAL */}
-        <div className="bg-white rounded-3xl p-6 sm:p-8 border border-slate-200/90 shadow-card hover:border-brand/50 hover:shadow-elevated transition-all flex flex-col justify-between group">
+        <div className="bg-white rounded-3xl p-6 sm:p-8 border border-slate-200/90 shadow-card hover:border-brand/50 hover:shadow-elevated hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between group">
           <div>
             <div className="flex items-center justify-between pb-4 border-b border-slate-100 mb-5">
               <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-purple-50 text-brand border border-purple-100">
@@ -153,7 +153,7 @@ export default function DualLocationSection({
                 Hospital Facility
               </span>
               <span className="text-xs font-semibold text-emerald-700 bg-emerald-50 border border-emerald-200 px-3 py-1 rounded-full flex items-center">
-                <span className="w-2 h-2 rounded-full bg-emerald-500 inline-block mr-1.5"></span>
+                <span className="w-2 h-2 rounded-full bg-emerald-500 inline-block mr-1.5 animate-pulse"></span>
                 Open Mon – Sat (4–7 PM)
               </span>
             </div>

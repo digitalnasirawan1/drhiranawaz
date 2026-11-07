@@ -169,9 +169,9 @@ export default function AboutPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white rounded-2xl p-8 border border-[#E7E7E7] shadow-subtle flex flex-col justify-between">
+            <div className="bg-white rounded-2xl p-8 border border-[#E7E7E7] shadow-subtle hover:border-brand/40 hover:shadow-card hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between">
               <div>
-                <div className="w-12 h-12 rounded-xl bg-brand-soft text-brand flex items-center justify-center mb-6">
+                <div className="w-12 h-12 rounded-xl bg-brand-soft text-brand flex items-center justify-center mb-6 shadow-xs">
                   <Stethoscope className="w-6 h-6" />
                 </div>
                 <h3 className="font-heading font-semibold text-lg sm:text-xl text-medical-heading mb-3">
@@ -183,9 +183,9 @@ export default function AboutPage() {
               </div>
             </div>
 
-            <div className="bg-white rounded-2xl p-8 border border-[#E7E7E7] shadow-subtle flex flex-col justify-between">
+            <div className="bg-white rounded-2xl p-8 border border-[#E7E7E7] shadow-subtle hover:border-brand/40 hover:shadow-card hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between">
               <div>
-                <div className="w-12 h-12 rounded-xl bg-brand-soft text-brand flex items-center justify-center mb-6">
+                <div className="w-12 h-12 rounded-xl bg-brand-soft text-brand flex items-center justify-center mb-6 shadow-xs">
                   <Heart className="w-6 h-6" />
                 </div>
                 <h3 className="font-heading font-semibold text-lg sm:text-xl text-medical-heading mb-3">
@@ -197,9 +197,9 @@ export default function AboutPage() {
               </div>
             </div>
 
-            <div className="bg-white rounded-2xl p-8 border border-[#E7E7E7] shadow-subtle flex flex-col justify-between">
+            <div className="bg-white rounded-2xl p-8 border border-[#E7E7E7] shadow-subtle hover:border-brand/40 hover:shadow-card hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between">
               <div>
-                <div className="w-12 h-12 rounded-xl bg-brand-soft text-brand flex items-center justify-center mb-6">
+                <div className="w-12 h-12 rounded-xl bg-brand-soft text-brand flex items-center justify-center mb-6 shadow-xs">
                   <ShieldCheck className="w-6 h-6" />
                 </div>
                 <h3 className="font-heading font-semibold text-lg sm:text-xl text-medical-heading mb-3">

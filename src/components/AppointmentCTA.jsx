@@ -46,7 +46,7 @@ export default function AppointmentCTA({
             href={businessInfo.whatsappUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="button-sheen w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 rounded-xl text-button text-[#653C61] bg-white hover:bg-slate-50 transition-all shadow-[0_15px_35px_-5px_rgba(0,0,0,0.3)] hover:scale-[1.02] active:scale-95"
+            className="button-sheen w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 rounded-xl text-button text-[#653C61] bg-white hover:bg-slate-50 transition-all duration-300 shadow-[0_15px_35px_-5px_rgba(0,0,0,0.35)] hover:shadow-[0_20px_40px_-5px_rgba(255,255,255,0.25)] hover:scale-[1.03] active:scale-95 ring-2 ring-white/40"
           >
             <WhatsAppIcon className="w-5 h-5 mr-2 fill-current" />
             <span>Book Appointment</span>
@@ -54,7 +54,7 @@ export default function AppointmentCTA({
 
           <a
             href={businessInfo.phoneTel}
-            className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 rounded-xl text-button text-white bg-white/10 hover:bg-white/20 border border-white/30 transition-all shadow-sm hover:shadow-md active:scale-95"
+            className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 rounded-xl text-button text-white bg-white/10 hover:bg-white/20 border border-white/30 backdrop-blur-sm transition-all duration-300 shadow-sm hover:shadow-elevated hover:scale-[1.02] active:scale-95"
           >
             <Phone className="w-4 h-4 mr-2" />
             <span>Call Now: {businessInfo.phoneDisplay}</span>

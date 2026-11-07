@@ -111,24 +111,24 @@ export default function HomePage() {
 
               {/* Quick Trust Highlights - Refined cards with icons and gentle hover */}
               <div className="pt-6 grid grid-cols-3 gap-3 border-t border-slate-200/80 text-center lg:text-left">
-                <div className="p-3.5 rounded-2xl bg-white border border-slate-200/80 shadow-subtle hover:border-brand/40 hover:shadow-card transition-all">
-                  <div className="w-7 h-7 rounded-lg bg-brand-soft text-brand flex items-center justify-center mb-1.5 mx-auto lg:mx-0">
+                <div className="p-3.5 rounded-2xl bg-white border border-slate-200/80 shadow-subtle hover:border-brand/40 hover:shadow-card hover:-translate-y-0.5 transition-all duration-200">
+                  <div className="w-7 h-7 rounded-lg bg-brand-soft text-brand flex items-center justify-center mb-1.5 mx-auto lg:mx-0 shadow-xs">
                     <ShieldCheck className="w-4 h-4" />
                   </div>
                   <div className="text-xs sm:text-sm font-bold text-medical-heading font-heading">FCPS Certified</div>
                   <div className="text-[11px] text-medical-secondary font-medium">Specialist General Surgery</div>
                 </div>
 
-                <div className="p-3.5 rounded-2xl bg-white border border-slate-200/80 shadow-subtle hover:border-brand/40 hover:shadow-card transition-all">
-                  <div className="w-7 h-7 rounded-lg bg-brand-soft text-brand flex items-center justify-center mb-1.5 mx-auto lg:mx-0">
+                <div className="p-3.5 rounded-2xl bg-white border border-slate-200/80 shadow-subtle hover:border-brand/40 hover:shadow-card hover:-translate-y-0.5 transition-all duration-200">
+                  <div className="w-7 h-7 rounded-lg bg-brand-soft text-brand flex items-center justify-center mb-1.5 mx-auto lg:mx-0 shadow-xs">
                     <Sparkles className="w-4 h-4" />
                   </div>
                   <div className="text-xs sm:text-sm font-bold text-medical-heading font-heading">Laparoscopy</div>
                   <div className="text-[11px] text-medical-secondary font-medium">Keyhole Minimally Invasive</div>
                 </div>
 
-                <div className="p-3.5 rounded-2xl bg-white border border-slate-200/80 shadow-subtle hover:border-brand/40 hover:shadow-card transition-all">
-                  <div className="w-7 h-7 rounded-lg bg-brand-soft text-brand flex items-center justify-center mb-1.5 mx-auto lg:mx-0">
+                <div className="p-3.5 rounded-2xl bg-white border border-slate-200/80 shadow-subtle hover:border-brand/40 hover:shadow-card hover:-translate-y-0.5 transition-all duration-200">
+                  <div className="w-7 h-7 rounded-lg bg-brand-soft text-brand flex items-center justify-center mb-1.5 mx-auto lg:mx-0 shadow-xs">
                     <Stethoscope className="w-4 h-4" />
                   </div>
                   <div className="text-xs sm:text-sm font-bold text-medical-heading font-heading">Female Surgeon</div>
@@ -263,7 +263,7 @@ export default function HomePage() {
             {categoriesData.map((cat) => (
               <div 
                 key={cat.id}
-                className="bg-white rounded-3xl overflow-hidden border-2 border-slate-200/90 hover:border-brand/50 shadow-card hover:shadow-elevated transition-all duration-300 flex flex-col justify-between group"
+                className="bg-white rounded-3xl overflow-hidden border-2 border-slate-200/90 hover:border-brand/50 shadow-card hover:shadow-elevated hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between group"
               >
                 {/* Image with Vignette & Category Tag */}
                 <div className="h-64 sm:h-72 overflow-hidden relative bg-slate-100">
@@ -347,7 +347,7 @@ export default function HomePage() {
               return (
                 <div 
                   key={service.id}
-                  className={`${colSpanClass} rounded-3xl overflow-hidden border border-slate-200/90 shadow-subtle hover:shadow-elevated hover:border-brand/50 transition-all duration-300 flex flex-col justify-between group bg-white`}
+                  className={`${colSpanClass} rounded-3xl overflow-hidden border border-slate-200/90 shadow-subtle hover:shadow-elevated hover:border-brand/50 hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between group bg-white`}
                 >
                   {/* Category Top Tag Strip */}
                   <div className="px-6 pt-5 pb-3 flex items-center justify-between border-b border-slate-50">

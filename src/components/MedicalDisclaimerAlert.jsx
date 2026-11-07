@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export default function MedicalDisclaimerAlert() {
   return (
-    <div className="bg-[#F7F1F6] border-l-4 border-brand p-5 rounded-r-2xl my-8 text-sm sm:text-base text-medical-secondary leading-relaxed">
+    <div className="bg-gradient-to-r from-[#F7F1F6] via-[#F7F1F6]/90 to-white border-l-4 border-brand p-5 sm:p-6 rounded-r-2xl my-8 text-sm sm:text-base text-medical-secondary leading-relaxed shadow-subtle border border-l-0 border-brand/10">
       <div className="flex items-start space-x-3.5">
         <AlertCircle className="w-5 h-5 text-brand shrink-0 mt-0.5" />
         <div>

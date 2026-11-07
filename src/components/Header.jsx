@@ -116,12 +116,12 @@ export default function Header() {
       </div>
 
       {/* Main Navbar */}
-      <div className={`w-full bg-white/95 backdrop-blur-md transition-all duration-300 ${scrolled ? 'shadow-card py-2.5 border-b border-[#E7E7E7]' : 'py-3.5 border-b border-[#E7E7E7]'}`}>
+      <div className={`w-full bg-white/95 backdrop-blur-md transition-all duration-300 ${scrolled ? 'shadow-card py-2.5 border-b border-brand/15' : 'py-3.5 border-b border-slate-200/80'}`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
           
           {/* Brand Identity / Logo */}
           <Link to="/" className="flex items-center space-x-3.5 group">
-            <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-2xl bg-gradient-to-br from-brand via-[#593255] to-brand-hover text-white flex items-center justify-center shadow-glow-brand group-hover:scale-105 transition-all duration-300">
+            <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-2xl bg-gradient-to-br from-brand via-[#593255] to-brand-hover text-white flex items-center justify-center shadow-glow-brand ring-2 ring-brand/15 group-hover:ring-brand/35 group-hover:scale-105 transition-all duration-300">
               <SurgeonIcon className="w-6 h-6 text-white" />
             </div>
             <div>
@@ -138,10 +138,10 @@ export default function Header() {
           <nav className="hidden lg:flex items-center space-x-1 xl:space-x-2">
             <Link 
               to="/" 
-              className={`px-3.5 py-2 rounded-lg text-[15px] font-medium leading-relaxed transition-colors ${
+              className={`px-3.5 py-2 rounded-lg text-[15px] font-medium leading-relaxed transition-all duration-200 hover:-translate-y-0.5 ${
                 location.pathname === '/' 
-                  ? 'text-brand font-semibold bg-brand-soft' 
-                  : 'text-medical-heading hover:text-brand hover:bg-brand-soft/60'
+                  ? 'text-brand font-semibold bg-brand-soft shadow-xs' 
+                  : 'text-medical-heading hover:text-brand hover:bg-brand-soft/70'
               }`}
             >
               Home
@@ -149,10 +149,10 @@ export default function Header() {
 
             <Link 
               to="/about/" 
-              className={`px-3.5 py-2 rounded-lg text-[15px] font-medium leading-relaxed transition-colors ${
+              className={`px-3.5 py-2 rounded-lg text-[15px] font-medium leading-relaxed transition-all duration-200 hover:-translate-y-0.5 ${
                 location.pathname === '/about/' 
-                  ? 'text-brand font-semibold bg-brand-soft' 
-                  : 'text-medical-heading hover:text-brand hover:bg-brand-soft/60'
+                  ? 'text-brand font-semibold bg-brand-soft shadow-xs' 
+                  : 'text-medical-heading hover:text-brand hover:bg-brand-soft/70'
               }`}
             >
               About
@@ -168,10 +168,10 @@ export default function Header() {
               <button 
                 type="button"
                 onClick={() => setServicesDropdownOpen(!servicesDropdownOpen)}
-                className={`flex items-center px-3.5 py-2 rounded-lg text-[15px] font-medium leading-relaxed transition-colors ${
+                className={`flex items-center px-3.5 py-2 rounded-lg text-[15px] font-medium leading-relaxed transition-all duration-200 hover:-translate-y-0.5 ${
                   location.pathname.includes('/services') || location.pathname.includes('-surgery') || location.pathname.includes('-treatment') || location.pathname.includes('-removal') || location.pathname.includes('-drainage')
-                    ? 'text-brand font-semibold bg-brand-soft' 
-                    : 'text-medical-heading hover:text-brand hover:bg-brand-soft/60'
+                    ? 'text-brand font-semibold bg-brand-soft shadow-xs' 
+                    : 'text-medical-heading hover:text-brand hover:bg-brand-soft/70'
                 }`}
                 aria-expanded={servicesDropdownOpen}
               >
@@ -181,7 +181,7 @@ export default function Header() {
 
               {/* Mega Dropdown Panel */}
               {servicesDropdownOpen && (
-                <div className="absolute left-1/2 -translate-x-1/2 top-full mt-1 w-[720px] bg-white rounded-2xl shadow-elevated border border-[#E7E7E7] p-6 grid grid-cols-2 gap-6 z-50 animate-in fade-in slide-in-from-top-2 duration-200">
+                <div className="absolute left-1/2 -translate-x-1/2 top-full mt-2 w-[720px] bg-white/98 backdrop-blur-xl rounded-2xl shadow-[0_20px_50px_-10px_rgba(101,60,97,0.2)] border border-brand/20 p-6 grid grid-cols-2 gap-6 z-50 animate-in fade-in slide-in-from-top-2 duration-200">
                   <div>
                     <div className="text-xs font-bold uppercase tracking-wider text-medical-secondary mb-3 pb-2 border-b border-[#E7E7E7] flex items-center justify-between">
                       <span>Surgical Specialties</span>
@@ -275,34 +275,34 @@ export default function Header() {
               </button>
 
               {patientsDropdownOpen && (
-                <div className="absolute left-0 top-full mt-1 w-60 bg-white rounded-xl shadow-elevated border border-[#E7E7E7] p-2 z-50 animate-in fade-in duration-150">
+                <div className="absolute left-0 top-full mt-2 w-60 bg-white/98 backdrop-blur-xl rounded-xl shadow-[0_15px_35px_-5px_rgba(101,60,97,0.18)] border border-brand/20 p-2 z-50 animate-in fade-in duration-150">
                   <Link 
                     to="/for-patients/" 
-                    className="block px-3 py-2 rounded-lg text-xs font-semibold text-medical-heading hover:bg-brand-soft hover:text-brand"
+                    className="block px-3 py-2 rounded-lg text-xs font-semibold text-medical-heading hover:bg-brand-soft hover:text-brand transition-colors"
                   >
                     Patient Resources & Guide
                   </Link>
                   <Link 
                     to="/patient-results-before-after-surgery/" 
-                    className="block px-3 py-2 rounded-lg text-xs font-medium text-medical-body hover:bg-brand-soft hover:text-brand"
+                    className="block px-3 py-2 rounded-lg text-xs font-medium text-medical-body hover:bg-brand-soft hover:text-brand transition-colors"
                   >
                     Surgical Case Outcomes
                   </Link>
                   <Link 
                     to="/gallery/" 
-                    className="block px-3 py-2 rounded-lg text-xs font-medium text-medical-body hover:bg-brand-soft hover:text-brand"
+                    className="block px-3 py-2 rounded-lg text-xs font-medium text-medical-body hover:bg-brand-soft hover:text-brand transition-colors"
                   >
                     Clinical Photo Gallery
                   </Link>
                   <Link 
                     to="/videos/" 
-                    className="block px-3 py-2 rounded-lg text-xs font-medium text-medical-body hover:bg-brand-soft hover:text-brand"
+                    className="block px-3 py-2 rounded-lg text-xs font-medium text-medical-body hover:bg-brand-soft hover:text-brand transition-colors"
                   >
                     Educational Videos
                   </Link>
                   <Link 
                     to="/faqs/" 
-                    className="block px-3 py-2 rounded-lg text-xs font-medium text-medical-body hover:bg-brand-soft hover:text-brand"
+                    className="block px-3 py-2 rounded-lg text-xs font-medium text-medical-body hover:bg-brand-soft hover:text-brand transition-colors"
                   >
                     Patient FAQs
                   </Link>
@@ -320,10 +320,10 @@ export default function Header() {
               <button 
                 type="button"
                 onClick={() => setLocationDropdownOpen(!locationDropdownOpen)}
-                className={`flex items-center px-3.5 py-2 rounded-lg text-[15px] font-medium leading-relaxed transition-colors ${
+                className={`flex items-center px-3.5 py-2 rounded-lg text-[15px] font-medium leading-relaxed transition-all duration-200 hover:-translate-y-0.5 ${
                   location.pathname.includes('/location') || location.pathname.includes('/faisal-hospital') || location.pathname.includes('/private-clinic')
-                    ? 'text-brand font-semibold bg-brand-soft' 
-                    : 'text-medical-heading hover:text-brand hover:bg-brand-soft/60'
+                    ? 'text-brand font-semibold bg-brand-soft shadow-xs' 
+                    : 'text-medical-heading hover:text-brand hover:bg-brand-soft/70'
                 }`}
                 aria-expanded={locationDropdownOpen}
               >
@@ -332,22 +332,22 @@ export default function Header() {
               </button>
 
               {locationDropdownOpen && (
-                <div className="absolute left-0 top-full mt-1 w-64 bg-white rounded-xl shadow-elevated border border-[#E7E7E7] p-2 z-50 animate-in fade-in duration-150">
+                <div className="absolute left-0 top-full mt-2 w-64 bg-white/98 backdrop-blur-xl rounded-xl shadow-[0_15px_35px_-5px_rgba(101,60,97,0.18)] border border-brand/20 p-2 z-50 animate-in fade-in duration-150">
                   <Link 
                     to="/location/" 
-                    className="block px-3 py-2 rounded-lg text-xs font-semibold text-medical-heading hover:bg-brand-soft hover:text-brand"
+                    className="block px-3 py-2 rounded-lg text-xs font-semibold text-medical-heading hover:bg-brand-soft hover:text-brand transition-colors"
                   >
                     Locations Overview & Timings
                   </Link>
                   <Link 
                     to="/private-clinic/" 
-                    className="block px-3 py-2 rounded-lg text-xs font-medium text-brand hover:bg-brand-soft"
+                    className="block px-3 py-2 rounded-lg text-xs font-medium text-brand hover:bg-brand-soft transition-colors"
                   >
                     Private Clinic
                   </Link>
                   <Link 
                     to="/faisal-hospital/" 
-                    className="block px-3 py-2 rounded-lg text-xs font-medium text-medical-body hover:bg-brand-soft hover:text-brand"
+                    className="block px-3 py-2 rounded-lg text-xs font-medium text-medical-body hover:bg-brand-soft hover:text-brand transition-colors"
                   >
                     Faisal Hospital
                   </Link>
@@ -357,10 +357,10 @@ export default function Header() {
 
             <Link 
               to="/contact/" 
-              className={`px-3.5 py-2 rounded-lg text-[15px] font-medium leading-relaxed transition-colors ${
+              className={`px-3.5 py-2 rounded-lg text-[15px] font-medium leading-relaxed transition-all duration-200 hover:-translate-y-0.5 ${
                 location.pathname === '/contact/' 
-                  ? 'text-brand font-semibold bg-brand-soft' 
-                  : 'text-medical-heading hover:text-brand hover:bg-brand-soft/60'
+                  ? 'text-brand font-semibold bg-brand-soft shadow-xs' 
+                  : 'text-medical-heading hover:text-brand hover:bg-brand-soft/70'
               }`}
             >
               Contact

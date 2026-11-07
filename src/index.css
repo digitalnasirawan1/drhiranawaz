@@ -58,6 +58,11 @@
   span, a, button, label, input, textarea, select, li {
     font-family: 'Inter', system-ui, -apple-system, sans-serif;
   }
+
+  ::selection {
+    background-color: #653C61;
+    color: #ffffff;
+  }
 }
 
 /* Custom premium responsive typography & design system utilities */
@@ -154,6 +159,21 @@
       linear-gradient(to bottom, rgba(101, 60, 97, 0.04) 1px, transparent 1px);
   }
 
+  /* Glassmorphism and Depth Utilities */
+  .glass-panel {
+    background: rgba(255, 255, 255, 0.88);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(231, 231, 231, 0.8);
+  }
+
+  .glass-card-plum {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.96) 0%, rgba(247, 241, 246, 0.65) 100%);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(101, 60, 97, 0.16);
+  }
+
   /* Subtle shimmer for buttons */
   .button-sheen {
     position: relative;
@@ -169,7 +189,7 @@
     background: linear-gradient(
       to right,
       rgba(255, 255, 255, 0) 0%,
-      rgba(255, 255, 255, 0.25) 50%,
+      rgba(255, 255, 255, 0.28) 50%,
       rgba(255, 255, 255, 0) 100%
     );
     transform: rotate(25deg);
@@ -177,6 +197,22 @@
   }
   .button-sheen:hover::after {
     left: 130%;
+  }
+
+  /* Micro aura pulse */
+  @keyframes aura-pulse {
+    0%, 100% {
+      opacity: 0.35;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 0.75;
+      transform: scale(1.18);
+    }
+  }
+
+  .animate-aura-pulse {
+    animation: aura-pulse 3s infinite ease-in-out;
   }
 }
 
