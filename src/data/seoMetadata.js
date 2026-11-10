@@ -369,10 +369,10 @@ export const seoRoutes = [
     id: "p28",
     slug: "privacy-policy/",
     canonical: "https://drhiranawaz.com/privacy-policy/",
-    title: "Privacy Policy | Dr. Hira Nawaz Surgical Practice",
-    description: "Official privacy policy for Dr. Hira Nawaz's medical website. Details regarding patient inquiries, data protection, cookies, and digital privacy safeguards.",
+    title: "Privacy Policy | Dr. Hira Nawaz",
+    description: "Read how Dr. Hira Nawaz's website handles personal information, including WhatsApp and phone enquiries, links to other services and how to ask a privacy question.",
     h1: "Privacy Policy",
-    schemaType: "MedicalWebPage",
+    schemaType: "WebPage",
     robots: "index, follow",
     inSitemap: true,
     inNavigation: true
